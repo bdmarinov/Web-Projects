@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.781);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+#header {
+    background-color: #1b1b1b;
+    height: 60px;
+}
+
+#header ul {
+    text-align: right;
+    font-size: 110%;
+    margin-top: 0px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+#header ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#header ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header ul li a:hover{
+    background-color: white;
+    background-size: 150%;
+    color: #1b1b1b;
+}
+
+#under {
+    height:100px;
+    background-color: blueviolet;
+}
+
+#main {
+    padding-bottom: 2px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width:500px;
+    background-color: #1b1b1b;
+}
+
+#mainH {
+    width: 498px;
+    border: 1px solid #1b1b1b;
+    border-radius: 2px;
+    background-color: white;
+    height: 35px;
+    color: #1b1b1b;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 9px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+input {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 26px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+    color:black;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.logo {
+    margin-top: 0;
+    text-align: center;
+    font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+  }
+  
+  /* stuff for both words */
+  .logo span {
+    position: relative;
+  }
+  .logo span:before,
+  .logo span:after {
+    content: '';
+    position: absolute;
+    border-width: 32px;/* makes a nice, big 64px square */
+    border-style: solid;
+    border-color: transparent;
+    height: 0;
+    z-index: 10;
+  }
+  
+  /* stuff for 1st word */
+  .logo .word1 {
+    color: #dc006c;
+    margin-right: -38px;
+    transform: rotateY(180deg);/* using Prefix free */
+    display: inline-block;/* required for transform */
+    z-index: 10;/* stack 1st word on top */
+  }
+  .logo .word1:before {
+    right: -4px;/* would be left, but we flipped the word */
+    top: -9px;
+    border-top-color: #282828;/* match background color */
+    border-right-color: #282828;/* would be left, but we flipped the word */
+  }
+  .logo .word1:after {
+    left: 17px;/* would be right, but we flipped the word */
+    bottom: -15px;
+    border-bottom-color: #282828;
+    border-left-color: #282828;/* would be right, but we flipped the word */
+  }
+  
+  /* stuff for 2nd word */
+  .logo .word2 {
+    z-index: 0;/* stack 2nd word below */
+  }
+  .logo .word2:before {
+    left: -4px;
+    top: -6px;
+    border-top-color: #282828;
+    border-left-color: #282828;
+  }
+  .logo .word2:after {
+    right: -4px;  
+    bottom: 4px;
+    border-bottom-color: #282828;
+    border-right-color: #282828;
+  }
+  
