@@ -1,0 +1,81 @@
+/*#addBar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#addBar input {
+    margin-right: 15px;
+}
+*/
+
+#homes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#homes td,
+#homes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#homes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#homes tr:hover {
+    background-color: #ddd;
+}
+
+#homes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.right {
+    text-align: center;
+    width: 10%;
+}
+
+#hide {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#hide textarea {
+    color: black;
+    overflow: auto;
+    /*border:outset 2px darkred;*/
+}
+
+#exportDIV {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-color: red;*/
+    clear: both;
+}
+
+#exportDIV input[type=submit] {
+    width: 20%;
+    height: 40px;
+    font-family: cursive;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: darksalmon;
+    border-radius: 50%;
+    border: outset 2px darkred;
+    cursor: pointer;
+}
+
+#some {
+    width: 170px;
+}

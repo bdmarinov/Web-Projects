@@ -1,0 +1,274 @@
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+/* Style the label to display next to the inputs */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Style the submit button */
+
+
+/*input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+*/
+
+#search {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+
+/* Style the container */
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Floating column for labels: 25% width */
+
+.col-25 {
+    float: left;
+    width: 25%;
+    text-align: left;
+    margin-top: 6px;
+}
+
+
+/* Floating column for inputs: 75% width */
+
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#formHeader {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #4CAF50;
+    border-radius: 40px;
+    /*border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;*/
+}
+
+.contain {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.contain input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.contain:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.contain input:checked~.checkmark {
+    background-color: #4CAF50;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.contain input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.contain .checkmark:after {
+    left: 3px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#homes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#homes td,
+#homes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#homes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#homes tr:hover {
+    background-color: #ddd;
+}
+
+#homes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.right {
+    text-align: center;
+    width: 10%;
+}
+
+#hide {
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#hide textarea {
+    color: black;
+    overflow: auto;
+    /*border:outset 2px darkred;*/
+}
+
+#exportDIV {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-color: red;*/
+    clear: both;
+}
+
+#exportDIV input[type=submit] {
+    width: 20%;
+    height: 40px;
+    font-family: cursive;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: darksalmon;
+    border-radius: 50%;
+    border: outset 2px darkred;
+    cursor: pointer;
+}
+
+#some {
+    width: 170px;
+}
