@@ -8,5 +8,5 @@ offer can be displayed in the index catalogue.
 Another main functionality is the search page. There the user can select multiple criteria (e.g. Listing all apartments with more than 3 rooms and bigger than 100 square feet in
 a selected region) and all properties that match the selected criteria will be displayed under the search menu.
 
-Future update of the system will allow the user to paste a link of a property (e.g. from a website like www.imot.bg) and the system will automatically scrape all the needed data
+Future update of the system will allow the user to paste a link of a property (e.g. from a real estate website) and the system will automatically scrape all the needed data
 from the link and post it in the database by creating a new entry in the catalogue. The system will also allow the user to post images for every entry in the catalogue.
