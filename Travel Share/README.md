@@ -1,4 +1,4 @@
-Travel Share is an interactive user oriented project for posting albums and chatting with other users.
+Travel Share is an interactive user oriented project for posting albums and chatting with other users. (Short video demo included in the project)
 
 
 The purpose of the system is to make a platform where multiple users can create accounts and login them in order to post information and pictures of their travel journeys.
