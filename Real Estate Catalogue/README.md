@@ -1,4 +1,4 @@
-Real Estate Catalogue is a multifunctional catalogue with the purpose to be of help in the daily job of every real estate broker.
+Real Estate Catalogue is a multifunctional catalogue with the purpose to be of help in the daily job of every real estate broker. (Short demo video included in the project)
  
 The system allows every real estate broker to add information (such as property type, room numbers, size, location, floors, type of building, link and description of the initial 
 offer) by creating and adding an entry in the database for a property which is for sale. The Index page lists all offers (entries) which the broker has saved in the catalogue 
